@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Banking_application1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <description>
+  </description>
+  <display-name>AdminModifyDetails</display-name>
+  <servlet-name>AdminModifyDetails</servlet-name>
+  <servlet-class>com.bank.controller.AdminModifyDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminModifyDetails</servlet-name>
+  <url-pattern>/AdminModifyDetails</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <description>
+  </description>
+  <display-name>AdminEditDetails</display-name>
+  <servlet-name>AdminEditDetails</servlet-name>
+  <servlet-class>com.bank.controller.AdminEditDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminEditDetails</servlet-name>
+  <url-pattern>/AdminEditDetails</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <description>
+  </description>
+  <display-name>AdminInsert</display-name>
+  <servlet-name>AdminInsert</servlet-name>
+  <servlet-class>com.bank.controller.AdminInsert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminInsert</servlet-name>
+  <url-pattern>/AdminInsert</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <description>
+  </description>
+  <display-name>AdminLogin</display-name>
+  <servlet-name>AdminLogin</servlet-name>
+  <servlet-class>com.bank.controller.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminLogin</servlet-name>
+  <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <description>
+  </description>
+  <display-name>AdminViewDetails</display-name>
+  <servlet-name>AdminViewDetails</servlet-name>
+  <servlet-class>com.bank.controller.AdminViewDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>AdminViewDetails</servlet-name>
+  <url-pattern>/AdminViewDetails</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <description>
+  </description>
+  <display-name>DeleteConfirm</display-name>
+  <servlet-name>DeleteConfirm</servlet-name>
+  <servlet-class>com.bank.controller.DeleteConfirm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>DeleteConfirm</servlet-name>
+  <url-pattern>/DeleteConfirm</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <description>
+  </description>
+  <display-name>Reset</display-name>
+  <servlet-name>Reset</servlet-name>
+  <servlet-class>com.bank.controller.Reset</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Reset</servlet-name>
+  <url-pattern>/Reset</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <description>
+  </description>
+  <display-name>ResetPassword</display-name>
+  <servlet-name>ResetPassword</servlet-name>
+  <servlet-class>com.bank.controller.ResetPassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ResetPassword</servlet-name>
+  <url-pattern>/ResetPassword</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <description>
+  </description>
+  <display-name>Credit</display-name>
+  <servlet-name>Credit</servlet-name>
+  <servlet-class>com.bank.controller.Credit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Credit</servlet-name>
+  <url-pattern>/Credit</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
+
+ 
+</element>
